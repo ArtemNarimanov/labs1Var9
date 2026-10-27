@@ -1,0 +1,6 @@
+Starting KORSAR 27.10.2026 20:43:10,82
+Task directory: C:\Users\anari\Documents\Barinov\labs1Var9\task\1расчет по 1п. var3 20 5 одномерна€ теплопроводность и площади
+Ќе удалось создать симлинк korsar.exe
+Ќе удалось создать симлинк kutil2.exe
+Ќе удалось создать симлинк nwsp_dat
+Finishing KORSAR with error, exit code: 1

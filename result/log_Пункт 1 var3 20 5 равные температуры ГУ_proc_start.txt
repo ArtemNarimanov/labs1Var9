@@ -1,0 +1,4 @@
+Starting KUTIL2 27.10.2026 20:43:25,11
+Task directory: C:\Users\anari\Documents\Barinov\labs1Var9\task\Пункт 1 var3 20 5 равные температуры ГУ
+Finishing KUTIL2: exit code 0
+*** FINISHED 27.10.2026 20:43:25,23

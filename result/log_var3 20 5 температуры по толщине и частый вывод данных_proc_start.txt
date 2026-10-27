@@ -1,0 +1,4 @@
+Starting KUTIL2 27.10.2026 20:43:24,78
+Task directory: C:\Users\anari\Documents\Barinov\labs1Var9\task\var3 20 5 температуры по толщине и частый вывод данных
+Finishing KUTIL2: exit code 0
+*** FINISHED 27.10.2026 20:43:24,90

@@ -1,0 +1,6 @@
+Starting KORSAR 27.10.2026 20:43:13,15
+Task directory: C:\Users\anari\Documents\Barinov\labs1Var9\task\Пункт 4.1 var3 40 5
+Не удалось создать симлинк korsar.exe
+Не удалось создать симлинк kutil2.exe
+Не удалось создать симлинк nwsp_dat
+Finishing KORSAR with error, exit code: 1

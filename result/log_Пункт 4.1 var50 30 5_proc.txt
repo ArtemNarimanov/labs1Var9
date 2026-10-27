@@ -1,0 +1,2 @@
+ %fat- Open error. File korres
+ Fortran iostat =           29
