@@ -1,4 +1,0 @@
-Starting KORSAR 27.10.2026 19:52:38,24
-Task directory: C:\Users\anari\Documents\Barinov\labs1Var9\task\var3 20 5
-Finishing KORSAR: exit code 0
-*** FINISHED 27.10.2026 19:54:09,33

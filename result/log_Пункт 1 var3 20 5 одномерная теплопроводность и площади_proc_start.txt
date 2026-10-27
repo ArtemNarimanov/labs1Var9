@@ -1,4 +1,0 @@
-Starting KUTIL2 27.10.2026 20:43:24,94
-Task directory: C:\Users\anari\Documents\Barinov\labs1Var9\task\ѕункт 1 var3 20 5 одномерна€ теплопроводность и площади
-Finishing KUTIL2: exit code 0
-*** FINISHED 27.10.2026 20:43:25,09

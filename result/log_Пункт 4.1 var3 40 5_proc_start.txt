@@ -1,4 +1,0 @@
-Starting KUTIL2 27.10.2026 20:43:26,35
-Task directory: C:\Users\anari\Documents\Barinov\labs1Var9\task\Пункт 4.1 var3 40 5
-Finishing KUTIL2: exit code 0
-*** FINISHED 27.10.2026 20:43:26,47
