@@ -6,21 +6,27 @@ rem ============================================================
 rem  PROC.bat - запуск KUTIL2 для каждой задачи
 rem
 rem  Для каждого подкаталога task\* последовательно:
-rem    1. удаляет старые korlis, korres, kutlis и *.dat;
-rem    2. запускает kutil2.exe на задачу;
-rem    3. ведёт лог в result\log_proc.txt (ANSI/CP1251).
+rem    0. проверка возобновления: если в логе запуска есть маркер
+rem       "*** FINISHED" - задача уже обработана и пропускается
+rem       полностью (без удаления файлов, симлинков и запуска exe);
+rem    1. удаляет старый kutlis;
+rem    2. создаёт симлинки korsar.exe, kutil2.exe, nwsp_dat из REPO;
+rem    3. запускает kutil2.exe (симлинк в папке задачи) с выводом
+rem       в лог работы;
+rem    4. ведёт логи: result\log_<задача>_proc_start.txt и
+rem       result\log_<задача>_proc.txt (ANSI/CP1251).
 rem ============================================================
 
 set "taskRoot=%~dp0task"
+set "repo=%~dp0..\labs1Var9"
 set "logDir=%~dp0result"
-set "logFile=%logDir%\log_proc.txt"
 
 rem --- создаём каталог результатов, если его нет
 if not exist "%logDir%" mkdir "%logDir%"
 
 rem --- проверяем наличие каталога задач
 if not exist "%taskRoot%" (
-    call :log Каталог задач не найден: %taskRoot%
+    echo Каталог задач не найден: %taskRoot%
     exit /b 1
 )
 
@@ -28,58 +34,91 @@ rem --- проверяем, что в каталоге задач есть хотя бы одна подпапка
 set "hasTask="
 for /d %%D in ("%taskRoot%\*") do set "hasTask=1"
 if not defined hasTask (
-    call :log В каталоге задач нет подпапок с задачами: %taskRoot%
+    echo В каталоге задач нет подпапок с задачами: %taskRoot%
     exit /b 1
 )
 
-rem --- очищаем лог перед запуском
-type nul > "%logFile%"
-call :log Файл лога: %logFile%
-
 rem --- последовательная обработка подкаталогов задач
 for /d %%D in ("%taskRoot%\*") do (
-    call :log
-    call :log ================== TASK: %%~nxD ==================
-    call :log Starting KUTIL2 !DATE! !TIME!
-    call :log Task directory: %%D
+    set "taskName=%%~nxD"
+    set "startLog=%logDir%\log_!taskName!_proc_start.txt"
+    set "calcLog=%logDir%\log_!taskName!_proc.txt"
 
-    rem --- удаляем старые файлы результатов перед запуском (отсутствие файлов - не ошибка)
-    del "%%D\korlis" 2>nul
-    del "%%D\korres" 2>nul
-    del "%%D\kutlis" 2>nul
-    del "%%D\*.dat"      2>nul
-
-    rem --- запускаем задачу KUTIL2 с выводом в файл лога
-    pushd "%%D"
-    if exist "kutil2.exe" (
-        cmd /c ""kutil2.exe" >> "%logFile%" 2>&1"
-        set "rc=!errorlevel!"
+    rem --- проверка возобновления: маркер "*** FINISHED" в логе запуска
+    if exist "!startLog!" (
+        findstr /c:"FINISHED" "!startLog!" >nul 2>&1
+        if !errorlevel!==0 (
+            echo Задача !taskName! уже обработана, пропускаем
+        ) else (
+            call :processTask "%%D" "!startLog!" "!calcLog!"
+        )
     ) else (
-        call :log kutil2.exe не найден в каталоге задачи: %%D
-        set "rc=1"
+        call :processTask "%%D" "!startLog!" "!calcLog!"
     )
-    popd
-
-    call :log Finishing KUTIL2 !DATE! !TIME!, exit code: !rc!
 )
 
 rem --- готово
-call :log
-call :log Все задачи обработаны. Лог: %logFile%
+echo Все задачи обработаны. Логи: %logDir%
 
 exit /b 0
 
 rem ============================================================
-rem  :log - печатает строку и в консоль, и в файл лога
+rem  :processTask - обработка одной задачи
+rem    %1 - путь к папке задачи, %2 - лог запуска, %3 - лог работы
+rem ============================================================
+:processTask
+set "taskDir=%~1"
+set "startLog=%~2"
+set "calcLog=%~3"
+
+rem --- перезаписываем лог запуска
+type nul > "%startLog%"
+call :log Starting KUTIL2 !DATE! !TIME!
+call :log Task directory: %taskDir%
+
+rem --- удаляем старый kutlis (отсутствие файла - не ошибка)
+del "%taskDir%\kutlis" 2>nul
+
+rem --- создаём симлинки из REPO (существующий файл/ссылку удаляем)
+call :link "korsar.exe"
+call :link "kutil2.exe"
+call :link "nwsp_dat"
+
+rem --- запускаем KUTIL2 через симлинк в папке задачи, вывод в лог работы
+pushd "%taskDir%"
+start /BELOWNORMAL /WAIT cmd /s /c "chcp 1251 >nul & kutil2.exe > "%calcLog%" 2>&1"
+set "rc=!errorlevel!"
+popd
+
+if !rc!==0 (
+    call :log Finishing KUTIL2: exit code 0
+    call :log *** FINISHED !DATE! !TIME!
+) else (
+    call :log Finishing KUTIL2 with error, exit code: !rc!
+)
+exit /b 0
+
+rem ============================================================
+rem  :link - создаёт симлинк в папке задачи на файл %1 из REPO
+rem          (существующий файл/ссылку сначала удаляем)
+rem ============================================================
+:link
+if exist "%taskDir%\%~1" del "%taskDir%\%~1" 2>nul
+mklink "%taskDir%\%~1" "%repo%\%~1"
+if errorlevel 1 call :log Не удалось создать симлинк %~1
+exit /b 0
+
+rem ============================================================
+rem  :log - печатает строку и в консоль, и в лог запуска
 rem        (без аргумента - пустая строка)
 rem ============================================================
 :log
 set "msg=%*"
 if defined msg (
     echo %msg%
-    >> "%logFile%" echo %msg%
+    >> "%startLog%" echo %msg%
 ) else (
     echo.
-    >> "%logFile%" echo.
+    >> "%startLog%" echo.
 )
 exit /b 0
