@@ -1,0 +1,83 @@
+FORMAT=5;
+Ntot=31;               ! должно совпадать с Ntot в kordat
+
+BEGIN
+out RESULT_TAV.DAT
+out RESULT_TW1.DAT
+out RESULT_TW2.DAT
+out RESULT_T3.DAT
+out RESULT_ALW1.DAT
+out RESULT_ALW2.DAT
+out RESULT_TENV1.DAT
+out RESULT_TENV2.DAT
+END
+END
+
+output RESULT_TAV.DAT
+ if first then        ! FIRST - встроенный ключ (принимает значения 0 и 1)
+  first = 0;
+    WRITE1 'LAB9 FIN: TAV';
+  ENDIF;
+  WRITE1 TAV.HCS1(1,2:Ntot);
+  END
+  
+ output RESULT_TW1.DAT
+ if first then        ! FIRST - встроенный ключ (принимает значения 0 и 1)
+  first = 0;
+    WRITE1 'LAB9 FIN: TW1';
+  ENDIF;
+ WRITE1 TW.HCS1(1,2:Ntot);
+ END
+  
+   output RESULT_TW2.DAT
+ if first then        ! FIRST - встроенный ключ (принимает значения 0 и 1)
+  first = 0;
+    WRITE1 'LAB9 FIN: TW2';
+  ENDIF;
+ WRITE1 TW.HCS1(2,2:Ntot);
+ END
+  
+     output RESULT_T3.DAT
+ if first then        ! FIRST - встроенный ключ (принимает значения 0 и 1)
+  first = 0;
+    WRITE1 'LAB9 FIN: T3';
+  ENDIF;
+ WRITE1 T.HCS1(3,2:Ntot);
+ END
+  
+  
+  
+   output RESULT_ALW1.DAT
+ if first then        ! FIRST - встроенный ключ (принимает значения 0 и 1)
+  first = 0;
+    WRITE1 'LAB9 FIN: ALW1';
+  ENDIF;
+WRITE1 ALW.HCS1(1,2:Ntot);
+ END
+  
+   output RESULT_ALW2.DAT
+ if first then        ! FIRST - встроенный ключ (принимает значения 0 и 1)
+  first = 0;
+    WRITE1 'LAB9 FIN: ALW2';
+  ENDIF;
+WRITE1 ALW.HCS1(2,2:Ntot);
+ END
+ 
+output RESULT_TENV1.DAT
+ if first then        ! FIRST - встроенный ключ (принимает значения 0 и 1)
+  first = 0;
+    WRITE1 'LAB9 FIN: TENV1';
+  ENDIF;
+WRITE1 TENV.HCS1(1,2:Ntot);
+ END
+  
+ output RESULT_TENV2.DAT
+ if first then        ! FIRST - встроенный ключ (принимает значения 0 и 1)
+ first = 0;
+ WRITE1 'LAB9 FIN: TENV2';
+ ENDIF;
+WRITE1 TENV.HCS1(2,2:Ntot);
+ END
+  
+  
+ 

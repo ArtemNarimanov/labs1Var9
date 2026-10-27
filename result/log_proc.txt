@@ -1,0 +1,206 @@
+Файл лога: C:\Users\anari\Documents\Barinov\labs1Var9\result\log_proc.txt
+
+================== TASK: 1расчет по 1п. var3 20 5 одномерная теплопроводность и площади ==================
+Starting KUTIL2 27.10.2026  5:04:05,55
+Task directory: C:\Users\anari\Documents\Barinov\labs1Var9\task\1расчет по 1п. var3 20 5 одномерная теплопроводность и площади
+ %fat- Open error. File korres
+ Fortran iostat =           29
+Finishing KUTIL2 27.10.2026  5:04:05,60, exit code: 0
+
+================== TASK: var10 20 5 ==================
+Starting KUTIL2 27.10.2026  5:04:05,61
+Task directory: C:\Users\anari\Documents\Barinov\labs1Var9\task\var10 20 5
+ %fat- Open error. File korres
+ Fortran iostat =           29
+Finishing KUTIL2 27.10.2026  5:04:05,64, exit code: 0
+
+================== TASK: var25 20 5 ==================
+Starting KUTIL2 27.10.2026  5:04:05,66
+Task directory: C:\Users\anari\Documents\Barinov\labs1Var9\task\var25 20 5
+ %fat- Open error. File korres
+ Fortran iostat =           29
+Finishing KUTIL2 27.10.2026  5:04:05,69, exit code: 0
+
+================== TASK: var3 20 5 ==================
+Starting KUTIL2 27.10.2026  5:04:05,70
+Task directory: C:\Users\anari\Documents\Barinov\labs1Var9\task\var3 20 5
+ %fat- Open error. File korres
+ Fortran iostat =           29
+Finishing KUTIL2 27.10.2026  5:04:05,74, exit code: 0
+
+================== TASK: var3 20 5 температуры по толщине и частый вывод данных ==================
+Starting KUTIL2 27.10.2026  5:04:05,75
+Task directory: C:\Users\anari\Documents\Barinov\labs1Var9\task\var3 20 5 температуры по толщине и частый вывод данных
+ %fat- Open error. File korres
+ Fortran iostat =           29
+Finishing KUTIL2 27.10.2026  5:04:05,78, exit code: 0
+
+================== TASK: var5 20 5 ==================
+Starting KUTIL2 27.10.2026  5:04:05,79
+Task directory: C:\Users\anari\Documents\Barinov\labs1Var9\task\var5 20 5
+ %fat- Open error. File korres
+ Fortran iostat =           29
+Finishing KUTIL2 27.10.2026  5:04:05,82, exit code: 0
+
+================== TASK: var50 20 5 ==================
+Starting KUTIL2 27.10.2026  5:04:05,84
+Task directory: C:\Users\anari\Documents\Barinov\labs1Var9\task\var50 20 5
+ %fat- Open error. File korres
+ Fortran iostat =           29
+Finishing KUTIL2 27.10.2026  5:04:05,87, exit code: 0
+
+================== TASK: Пункт 1 var3 20 5 одномерная теплопроводность и площади ==================
+Starting KUTIL2 27.10.2026  5:04:05,88
+Task directory: C:\Users\anari\Documents\Barinov\labs1Var9\task\Пункт 1 var3 20 5 одномерная теплопроводность и площади
+ %fat- Open error. File korres
+ Fortran iostat =           29
+Finishing KUTIL2 27.10.2026  5:04:05,92, exit code: 0
+
+================== TASK: Пункт 1 var3 20 5 равные температуры ГУ ==================
+Starting KUTIL2 27.10.2026  5:04:05,93
+Task directory: C:\Users\anari\Documents\Barinov\labs1Var9\task\Пункт 1 var3 20 5 равные температуры ГУ
+ %fat- Open error. File korres
+ Fortran iostat =           29
+Finishing KUTIL2 27.10.2026  5:04:05,97, exit code: 0
+
+================== TASK: Пункт 2 var10 20 5 ==================
+Starting KUTIL2 27.10.2026  5:04:05,98
+Task directory: C:\Users\anari\Documents\Barinov\labs1Var9\task\Пункт 2 var10 20 5
+ %fat- Open error. File korres
+ Fortran iostat =           29
+Finishing KUTIL2 27.10.2026  5:04:06,02, exit code: 0
+
+================== TASK: Пункт 2 var25 20 5 ==================
+Starting KUTIL2 27.10.2026  5:04:06,03
+Task directory: C:\Users\anari\Documents\Barinov\labs1Var9\task\Пункт 2 var25 20 5
+ %fat- Open error. File korres
+ Fortran iostat =           29
+Finishing KUTIL2 27.10.2026  5:04:06,07, exit code: 0
+
+================== TASK: Пункт 2 var3 20 5 ==================
+Starting KUTIL2 27.10.2026  5:04:06,08
+Task directory: C:\Users\anari\Documents\Barinov\labs1Var9\task\Пункт 2 var3 20 5
+ %fat- Open error. File korres
+ Fortran iostat =           29
+Finishing KUTIL2 27.10.2026  5:04:06,12, exit code: 0
+
+================== TASK: Пункт 2 var5 20 5 ==================
+Starting KUTIL2 27.10.2026  5:04:06,13
+Task directory: C:\Users\anari\Documents\Barinov\labs1Var9\task\Пункт 2 var5 20 5
+ %fat- Open error. File korres
+ Fortran iostat =           29
+Finishing KUTIL2 27.10.2026  5:04:06,16, exit code: 0
+
+================== TASK: Пункт 2 var50 20 5 ==================
+Starting KUTIL2 27.10.2026  5:04:06,17
+Task directory: C:\Users\anari\Documents\Barinov\labs1Var9\task\Пункт 2 var50 20 5
+ %fat- Open error. File korres
+ Fortran iostat =           29
+Finishing KUTIL2 27.10.2026  5:04:06,21, exit code: 0
+
+================== TASK: Пункт 4.1 var3 10 5 ==================
+Starting KUTIL2 27.10.2026  5:04:06,22
+Task directory: C:\Users\anari\Documents\Barinov\labs1Var9\task\Пункт 4.1 var3 10 5
+ %fat- Open error. File korres
+ Fortran iostat =           29
+Finishing KUTIL2 27.10.2026  5:04:06,26, exit code: 0
+
+================== TASK: Пункт 4.1 var3 30 5 ==================
+Starting KUTIL2 27.10.2026  5:04:06,27
+Task directory: C:\Users\anari\Documents\Barinov\labs1Var9\task\Пункт 4.1 var3 30 5
+ %fat- Open error. File korres
+ Fortran iostat =           29
+Finishing KUTIL2 27.10.2026  5:04:06,30, exit code: 0
+
+================== TASK: Пункт 4.1 var3 40 5 ==================
+Starting KUTIL2 27.10.2026  5:04:06,31
+Task directory: C:\Users\anari\Documents\Barinov\labs1Var9\task\Пункт 4.1 var3 40 5
+ %fat- Open error. File korres
+ Fortran iostat =           29
+Finishing KUTIL2 27.10.2026  5:04:06,35, exit code: 0
+
+================== TASK: Пункт 4.1 var3 5 5 ==================
+Starting KUTIL2 27.10.2026  5:04:06,36
+Task directory: C:\Users\anari\Documents\Barinov\labs1Var9\task\Пункт 4.1 var3 5 5
+ %fat- Open error. File korres
+ Fortran iostat =           29
+Finishing KUTIL2 27.10.2026  5:04:06,40, exit code: 0
+
+================== TASK: Пункт 4.1 var3 50 5 ==================
+Starting KUTIL2 27.10.2026  5:04:06,41
+Task directory: C:\Users\anari\Documents\Barinov\labs1Var9\task\Пункт 4.1 var3 50 5
+ %fat- Open error. File korres
+ Fortran iostat =           29
+Finishing KUTIL2 27.10.2026  5:04:06,44, exit code: 0
+
+================== TASK: Пункт 4.1 var50 10 5 ==================
+Starting KUTIL2 27.10.2026  5:04:06,45
+Task directory: C:\Users\anari\Documents\Barinov\labs1Var9\task\Пункт 4.1 var50 10 5
+ %fat- Open error. File korres
+ Fortran iostat =           29
+Finishing KUTIL2 27.10.2026  5:04:06,49, exit code: 0
+
+================== TASK: Пункт 4.1 var50 30 5 ==================
+Starting KUTIL2 27.10.2026  5:04:06,50
+Task directory: C:\Users\anari\Documents\Barinov\labs1Var9\task\Пункт 4.1 var50 30 5
+ %fat- Open error. File korres
+ Fortran iostat =           29
+Finishing KUTIL2 27.10.2026  5:04:06,53, exit code: 0
+
+================== TASK: Пункт 4.1 var50 40 5 ==================
+Starting KUTIL2 27.10.2026  5:04:06,54
+Task directory: C:\Users\anari\Documents\Barinov\labs1Var9\task\Пункт 4.1 var50 40 5
+ %fat- Open error. File korres
+ Fortran iostat =           29
+Finishing KUTIL2 27.10.2026  5:04:06,58, exit code: 0
+
+================== TASK: Пункт 4.1 var50 5 5 ==================
+Starting KUTIL2 27.10.2026  5:04:06,59
+Task directory: C:\Users\anari\Documents\Barinov\labs1Var9\task\Пункт 4.1 var50 5 5
+ %fat- Open error. File korres
+ Fortran iostat =           29
+Finishing KUTIL2 27.10.2026  5:04:06,63, exit code: 0
+
+================== TASK: Пункт 4.1 var50 50 5 ==================
+Starting KUTIL2 27.10.2026  5:04:06,64
+Task directory: C:\Users\anari\Documents\Barinov\labs1Var9\task\Пункт 4.1 var50 50 5
+ %fat- Open error. File korres
+ Fortran iostat =           29
+Finishing KUTIL2 27.10.2026  5:04:06,67, exit code: 0
+
+================== TASK: Пункт 4.2 var3 20 3 ==================
+Starting KUTIL2 27.10.2026  5:04:06,69
+Task directory: C:\Users\anari\Documents\Barinov\labs1Var9\task\Пункт 4.2 var3 20 3
+ %fat- Open error. File korres
+ Fortran iostat =           29
+Finishing KUTIL2 27.10.2026  5:04:06,72, exit code: 0
+
+================== TASK: Пункт 4.2 var3 20 7 ==================
+Starting KUTIL2 27.10.2026  5:04:06,73
+Task directory: C:\Users\anari\Documents\Barinov\labs1Var9\task\Пункт 4.2 var3 20 7
+ %fat- Open error. File korres
+ Fortran iostat =           29
+Finishing KUTIL2 27.10.2026  5:04:06,77, exit code: 0
+
+================== TASK: Пункт 4.2 var50 20 3 ==================
+Starting KUTIL2 27.10.2026  5:04:06,78
+Task directory: C:\Users\anari\Documents\Barinov\labs1Var9\task\Пункт 4.2 var50 20 3
+ %fat- Open error. File korres
+ Fortran iostat =           29
+Finishing KUTIL2 27.10.2026  5:04:06,81, exit code: 0
+
+================== TASK: Пункт 4.2 var50 20 7 ==================
+Starting KUTIL2 27.10.2026  5:04:06,83
+Task directory: C:\Users\anari\Documents\Barinov\labs1Var9\task\Пункт 4.2 var50 20 7
+ %fat- Open error. File korres
+ Fortran iostat =           29
+Finishing KUTIL2 27.10.2026  5:04:06,86, exit code: 0
+
+================== TASK: Пункт 5 var50 50 7 Самое подробное решение ==================
+Starting KUTIL2 27.10.2026  5:04:06,87
+Task directory: C:\Users\anari\Documents\Barinov\labs1Var9\task\Пункт 5 var50 50 7 Самое подробное решение
+ %fat- Open error. File korres
+ Fortran iostat =           29
+Finishing KUTIL2 27.10.2026  5:04:06,91, exit code: 0
+
+Все задачи обработаны. Лог: C:\Users\anari\Documents\Barinov\labs1Var9\result\log_proc.txt
