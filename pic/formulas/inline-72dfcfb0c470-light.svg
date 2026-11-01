@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="6pt" height="8pt" viewBox="0 0 6 8" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ 
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 8 
+L 6 8 
+L 6 0 
+L 0 0 
+L 0 8 
+z
+" style="fill: none"/>
+  </g>
+  <g id="text_1">
+   <!-- $L$ -->
+   <g style="fill: #1f2328" transform="translate(0 8) scale(0.1 -0.1)">
+    <defs>
+     <path id="DejaVuSans-Oblique-4c" d="M 1075 4666 
+L 1709 4666 
+L 909 525 
+L 3181 525 
+L 3078 0 
+L 172 0 
+L 1075 4666 
+z
+" transform="scale(0.015625)"/>
+    </defs>
+    <use xlink:href="#DejaVuSans-Oblique-4c" transform="translate(0 0.09375)"/>
+   </g>
+  </g>
+ </g>
+</svg>
