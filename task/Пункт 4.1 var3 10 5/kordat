@@ -69,9 +69,10 @@ DATA HCS1
   XL(1:2)=0., delta;
   X(1:K)=LINA(0., delta, K);
 
-  LAM=lam;
-  CR=rho*c;
-  B=b;
+ !Выяснилось что здесь нельзя задавать пользовательскими переменными
+  LAM=50;
+  CR=7800*500;
+  B=0.1;
 
   QX=0.;
   QZ=0.;
@@ -103,9 +104,13 @@ OUTPUT OUT1
   WRITE TAV.HCS1(1,1:Ntot);
   WRITE TW.HCS1(1,1:Ntot);
   WRITE TW.HCS1(2,1:Ntot);
-  WRITE T.HCS1(3,1:Ntot);
   WRITE ALW.HCS1(1,1:Ntot);
   WRITE ALW.HCS1(2,1:Ntot);
   WRITE TENV.HCS1(1,1:Ntot);
   WRITE TENV.HCS1(2,1:Ntot);
+  WRITE DF.HCS1(1,1:Ntot);
+  WRITE DF.HCS1(2,1:Ntot);
+  WRITE B.HCS1;
+  WRITE LAM.HCS1;
+  WRITE CR.HCS1;
 END
