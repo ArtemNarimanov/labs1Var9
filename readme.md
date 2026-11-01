@@ -55,21 +55,29 @@
 
 <a id="eq-fin"></a>
 
-$ \lambda A_c\dfrac{d^2T}{dx^2} - \alpha P(T-T_1) = 0, \qquad T(0) = T_0, \qquad \left.\dfrac{dT}{dx}\right|_{L} = 0. \qquad (1) $
+$$
+\lambda A_c\dfrac{d^2T}{dx^2} - \alpha P(T-T_1) = 0, \qquad T(0) = T_0, \qquad \left.\dfrac{dT}{dx}\right|_{L} = 0. \tag{1}
+$$
 
 Введем $\theta = (T-T_1)/(T_0-T_1)$, $\xi = x/L$, $m = \sqrt{\alpha P/(\lambda A_c)} = \sqrt{2\alpha/(\lambda\delta)}$, $M = mL$. Решение для теплоизолированного торца и мощность теплоотдачи (Holman [[2]](#ref-holman); открытый вывод — MIT [[3]](#ref-mit)):
 
 <a id="eq-profile"></a>
 
-$ \theta(\xi) = \dfrac{\cosh[M(1-\xi)]}{\cosh M}, \qquad T(L) = T_1 + \dfrac{T_0-T_1}{\cosh M}. \qquad (2) $
+$$
+\theta(\xi) = \dfrac{\cosh[M(1-\xi)]}{\cosh M}, \qquad T(L) = T_1 + \dfrac{T_0-T_1}{\cosh M}. \tag{2}
+$$
 
 <a id="eq-power"></a>
 
-$ \dot Q = -\lambda A_cT'(0) = \lambda A_cm(T_0-T_1)\tanh M = \alpha\int_0^L P[T(x)-T_1]dx. \qquad (3) $
+$$
+\dot Q = -\lambda A_cT'(0) = \lambda A_cm(T_0-T_1)\tanh M = \alpha\int_0^L P[T(x)-T_1]dx. \tag{3}
+$$
 
 <a id="eq-efficiency"></a>
 
-$ \eta_f = \dfrac{\dot Q}{\alpha A_f(T_0-T_1)} = \dfrac{\tanh M}{M}. \qquad (4) $
+$$
+\eta_f = \dfrac{\dot Q}{\alpha A_f(T_0-T_1)} = \dfrac{\tanh M}{M}. \tag{4}
+$$
 
 Эффективность $\eta_f$ — отношение мощности ребра к мощности изотермического ребра той же площади при $T_0$, т. е. отношение средней относительной температуры ребра к температуре его основания. Аналитическое решение приводится также в учебнике Михеева [[4]](#ref-miheev), разд. 10-6.
 
@@ -321,23 +329,31 @@ PROC.bat
 
 Отклонения результатов, полученных в РК Корсар, от аналитической оценки посчитаны по формуле:
 
-$ \Delta T_i = T_i^{\mathrm{КОРСАР}} - T_i^{\mathrm{ан}}. $
+$$
+\Delta T_i = T_i^{\text{КОРСАР}} - T_i^{\text{ан}}.
+$$
 
 Максимальное отклонение посчитано по формуле:
 
-$ \Delta T_{\max} = \max_{1\le i\le n}|\Delta T_i|. $
+$$
+\Delta T_{\max} = \max_{1\le i\le n}\left\lvert\Delta T_i\right\rvert.
+$$
 
 Максимальное отклонение составляет 3,47 К, это 1,1837 %
 
 Среднее отклонение посчитано по формуле
 
-$ \operatorname{MAE} = \frac{1}{n}\sum_{i=1}^{n}|\Delta T_i|. $
+$$
+\operatorname{MAE} = \frac{1}{n}\sum_{i=1}^{n}\left\lvert\Delta T_i\right\rvert.
+$$
 
 Среднее отклонение составило 1,5659 К.
 
 Среднеквадратичное отклонение посчитано по формуле:
 
-$ \operatorname{RMSE} = \sqrt{\frac{1}{n}\sum_{i=1}^{n}(\Delta T_i)^2}. $
+$$
+\operatorname{RMSE} = \sqrt{\frac{1}{n}\sum_{i=1}^{n}(\Delta T_i)^2}.
+$$
 
 Оно составило 1,7832 К.
 
