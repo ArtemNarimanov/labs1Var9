@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "x_file": "C:/Users/anari/Documents/Barinov/labs1Var9/task/Пункт 3 графики/a.dat",
+  "lines": [
+    {
+      "path": "C:/Users/anari/Documents/Barinov/labs1Var9/task/Пункт 3 графики/Q Корсар.dat",
+      "legend": "Корсар",
+      "start": 1,
+      "color": "#0a86f5",
+      "x_path": "",
+      "x_start": 1
+    },
+    {
+      "path": "C:/Users/anari/Documents/Barinov/labs1Var9/task/Пункт 3 графики/Q Аналитика.dat",
+      "legend": "Аналитика",
+      "start": 1,
+      "color": "#ff0000",
+      "x_path": "",
+      "x_start": 1
+    }
+  ],
+  "title": "График зависимости теплого потока от коэф-та теплоотдачи",
+  "xlabel": "α, Вт/(м^2*К)",
+  "ylabel": "Q, Вт",
+  "combined": true,
+  "combined_name": "",
+  "out_dir": "C:\\Users\\anari\\Documents\\Barinov\\graphslab9\\dist"
+}

@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "x_file": "C:/Users/anari/Documents/Barinov/labs1Var9/task/Пункт 2 var5 20 5/xi.dat",
+  "lines": [
+    {
+      "path": "C:/Users/anari/Documents/Barinov/labs1Var9/task/Пункт 2 var5 20 5/result_theta_tav.dat",
+      "legend": "Корсар",
+      "start": 1,
+      "color": "#11ee4e",
+      "x_path": "",
+      "x_start": 1
+    },
+    {
+      "path": "C:/Users/anari/Documents/Barinov/labs1Var9/task/Пункт 2 var5 20 5/Тетта 5.dat",
+      "legend": "Аналитика",
+      "start": 1,
+      "color": "#ff8000",
+      "x_path": "",
+      "x_start": 1
+    }
+  ],
+  "title": "График безразмерных температур",
+  "xlabel": "ξ",
+  "ylabel": "θ",
+  "combined": true,
+  "combined_name": "",
+  "out_dir": "C:\\Users\\anari\\Documents\\Barinov\\graphslab9\\dist"
+}

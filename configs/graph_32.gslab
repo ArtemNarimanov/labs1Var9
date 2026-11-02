@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "x_file": "C:/Users/anari/Documents/Barinov/labs1Var9/task/Пункт 4.2 var50 20 7/X.dat",
+  "lines": [
+    {
+      "path": "C:/Users/anari/Documents/Barinov/labs1Var9/task/Пункт 4.2 var50 20 7/result_tav.dat",
+      "legend": "Средняя температура по толщине",
+      "start": 4,
+      "color": "#ff8040",
+      "x_path": "",
+      "x_start": 1
+    },
+    {
+      "path": "C:/Users/anari/Documents/Barinov/labs1Var9/task/Пункт 4.2 var50 20 7/result_tw1.dat",
+      "legend": "Температура на стенке",
+      "start": 4,
+      "color": "#3621f8",
+      "x_path": "",
+      "x_start": 1
+    }
+  ],
+  "title": "График средней температуры по толщине и температуры на стенке",
+  "xlabel": "X, м",
+  "ylabel": "T, К",
+  "combined": true,
+  "combined_name": "",
+  "out_dir": "C:\\Users\\anari\\Documents\\Barinov\\graphslab9\\dist"
+}

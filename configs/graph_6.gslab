@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "x_file": "C:/Users/anari/Documents/Barinov/labs1Var9/task/Пункт 2 var10 20 5/X.dat",
+  "lines": [
+    {
+      "path": "C:/Users/anari/Documents/Barinov/labs1Var9/task/Пункт 2 var10 20 5/result_tav.dat",
+      "legend": "Корсар",
+      "start": 4,
+      "color": "#0a86f5",
+      "x_path": "",
+      "x_start": 1
+    },
+    {
+      "path": "C:/Users/anari/Documents/Barinov/labs1Var9/task/Пункт 2 var10 20 5/Т10.dat",
+      "legend": "Аналитика",
+      "start": 1,
+      "color": "#ff0000",
+      "x_path": "",
+      "x_start": 1
+    }
+  ],
+  "title": "График средней по толщине температуры ребра",
+  "xlabel": "X, м",
+  "ylabel": "T, К",
+  "combined": true,
+  "combined_name": "",
+  "out_dir": "C:\\Users\\anari\\Documents\\Barinov\\graphslab9\\dist"
+}

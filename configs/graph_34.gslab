@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "x_file": "C:/Users/anari/Documents/Barinov/labs1Var9/task/Пункт 4.2 var50 20 7/X.dat",
+  "lines": [
+    {
+      "path": "C:/Users/anari/Documents/Barinov/labs1Var9/task/Пункт 4.2 var50 20 3/result_tav.dat",
+      "legend": "При K =3",
+      "start": 4,
+      "color": "#ff8040",
+      "x_path": "",
+      "x_start": 1
+    },
+    {
+      "path": "C:/Users/anari/Documents/Barinov/labs1Var9/task/Пункт 4.2 var50 20 5/result_tav.dat",
+      "legend": "При K = 5",
+      "start": 4,
+      "color": "#3621f8",
+      "x_path": "",
+      "x_start": 1
+    },
+    {
+      "path": "C:/Users/anari/Documents/Barinov/labs1Var9/task/Пункт 4.2 var50 20 7/result_tav.dat",
+      "legend": "При K = 7",
+      "start": 4,
+      "color": "#2e8b57",
+      "x_path": "",
+      "x_start": 1
+    }
+  ],
+  "title": "График средних температур по толщине ребра",
+  "xlabel": "X, м",
+  "ylabel": "T, К",
+  "combined": true,
+  "combined_name": "",
+  "out_dir": "C:\\Users\\anari\\Documents\\Barinov\\graphslab9\\dist"
+}
