@@ -9,3 +9,7 @@
 **/Razdel_s_so_sravneniem.docx
 **/Аналитика/
 **/Результаты Аналитики/
+make_graphs.py
+check_data.py
+gen_standalone.py
+__pycache__/
