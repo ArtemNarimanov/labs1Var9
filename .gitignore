@@ -13,3 +13,5 @@ make_graphs.py
 check_data.py
 gen_standalone.py
 __pycache__/
+legacy plots/
+pic/plots/

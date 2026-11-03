@@ -7,7 +7,7 @@ make_graphs_standalone.py — независимый скрипт: все 33 г�
 лежит этот файл), стартовые номера строк, цвета, легенды и подписи зашиты в GRAPHS.
 
 Запуск:
-    py -3.10 make_graphs_standalone.py                # все графики -> plots/ рядом со скриптом
+    py -3.10 make_graphs_standalone.py                # все графики -> pic/plots/ рядом со скриптом
     py -3.10 make_graphs_standalone.py --out-dir out  # своя папка для PNG
     py -3.10 make_graphs_standalone.py graph_2 graph_15   # отдельные по имени
 """
@@ -463,10 +463,10 @@ def render(graph: tuple, out_dir: Path) -> Path:
 def main() -> int:
     ap = argparse.ArgumentParser(description="Независимый скрипт графиков (пути вшиты)")
     ap.add_argument("names", nargs="*", help="имена графиков, напр. graph_2 (по умолчанию все)")
-    ap.add_argument("--out-dir", default=None, help="папка для PNG (по умолчанию plots/ рядом со скриптом)")
+    ap.add_argument("--out-dir", default=None, help="папка для PNG (по умолчанию pic/plots/ рядом со скриптом)")
     args = ap.parse_args()
 
-    out_dir = Path(args.out_dir) if args.out_dir else BASE / "plots"
+    out_dir = Path(args.out_dir) if args.out_dir else BASE / "pic" / "plots"
 
     graphs = GRAPHS
     if args.names:

@@ -111,55 +111,55 @@
 
 Построены <picture><source media="(prefers-color-scheme: dark)" srcset="./pic/formulas/inline-1165c59bb905-dark.svg"><img src="./pic/formulas/inline-1165c59bb905-light.svg" alt="T(x)" height="15"></picture> и <picture><source media="(prefers-color-scheme: dark)" srcset="./pic/formulas/inline-7695d2a56e69-dark.svg"><img src="./pic/formulas/inline-7695d2a56e69-light.svg" alt="\theta(\xi)" height="16"></picture> для всех <picture><source media="(prefers-color-scheme: dark)" srcset="./pic/formulas/inline-4893e9df8b54-dark.svg"><img src="./pic/formulas/inline-4893e9df8b54-light.svg" alt="\alpha" height="10"></picture>, графики <picture><source media="(prefers-color-scheme: dark)" srcset="./pic/formulas/inline-7b02c5fbbc7e-dark.svg"><img src="./pic/formulas/inline-7b02c5fbbc7e-light.svg" alt="T(L)" height="15"></picture>, <picture><source media="(prefers-color-scheme: dark)" srcset="./pic/formulas/inline-4065187ab116-dark.svg"><img src="./pic/formulas/inline-4065187ab116-light.svg" alt="\dot{Q}" height="20"></picture> и <picture><source media="(prefers-color-scheme: dark)" srcset="./pic/formulas/inline-c85cee5084c7-dark.svg"><img src="./pic/formulas/inline-c85cee5084c7-light.svg" alt="\eta_f" height="14"></picture> от <picture><source media="(prefers-color-scheme: dark)" srcset="./pic/formulas/inline-4893e9df8b54-dark.svg"><img src="./pic/formulas/inline-4893e9df8b54-light.svg" alt="\alpha" height="10"></picture>; наложена аналитика.
 
-![Профиль T(x) при alpha = 3](./pic/1%20%D0%9F%202%203%2020%205%20%D0%A2%D0%B5%D0%BC%D0%BF.png)
+![Профиль T(x) при alpha = 3](./pic/README_plots/graph_2.png)
 
 *Рисунок 2 — Температурный профиль <picture><source media="(prefers-color-scheme: dark)" srcset="./pic/formulas/inline-1165c59bb905-dark.svg"><img src="./pic/formulas/inline-1165c59bb905-light.svg" alt="T(x)" height="15"></picture> при <picture><source media="(prefers-color-scheme: dark)" srcset="./pic/formulas/inline-76fe4fec6c0a-dark.svg"><img src="./pic/formulas/inline-76fe4fec6c0a-light.svg" alt="\alpha = 3" height="14"></picture> Вт/(м²·К).*
 
-![Профиль theta(xi) при alpha = 3](./pic/2%20%D0%9F%202%203%2020%205%20%D0%A2%D0%B5%D1%82%D1%82%D0%B0.png)
+![Профиль theta(xi) при alpha = 3](./pic/README_plots/graph_3.png)
 
 *Рисунок 3 — Относительный температурный профиль <picture><source media="(prefers-color-scheme: dark)" srcset="./pic/formulas/inline-7695d2a56e69-dark.svg"><img src="./pic/formulas/inline-7695d2a56e69-light.svg" alt="\theta(\xi)" height="16"></picture> при <picture><source media="(prefers-color-scheme: dark)" srcset="./pic/formulas/inline-76fe4fec6c0a-dark.svg"><img src="./pic/formulas/inline-76fe4fec6c0a-light.svg" alt="\alpha = 3" height="14"></picture> Вт/(м²·К).*
 
-![Профиль T(x) при alpha = 5](./pic/3%20%D0%9F%202%205%2020%205%20%D0%A2%D0%B5%D0%BC%D0%BF.png)
+![Профиль T(x) при alpha = 5](./pic/README_plots/graph_4.png)
 
 *Рисунок 4 — Температурный профиль <picture><source media="(prefers-color-scheme: dark)" srcset="./pic/formulas/inline-1165c59bb905-dark.svg"><img src="./pic/formulas/inline-1165c59bb905-light.svg" alt="T(x)" height="15"></picture> при <picture><source media="(prefers-color-scheme: dark)" srcset="./pic/formulas/inline-11fdec7448c8-dark.svg"><img src="./pic/formulas/inline-11fdec7448c8-light.svg" alt="\alpha = 5" height="14"></picture> Вт/(м²·К).*
 
-![Профиль theta(xi) при alpha = 5](./pic/4%20%D0%9F%202%205%2020%205%20%D0%A2%D0%B5%D1%82%D1%82%D0%B0.png)
+![Профиль theta(xi) при alpha = 5](./pic/README_plots/graph_5.png)
 
 *Рисунок 5 — Относительный температурный профиль <picture><source media="(prefers-color-scheme: dark)" srcset="./pic/formulas/inline-7695d2a56e69-dark.svg"><img src="./pic/formulas/inline-7695d2a56e69-light.svg" alt="\theta(\xi)" height="16"></picture> при <picture><source media="(prefers-color-scheme: dark)" srcset="./pic/formulas/inline-11fdec7448c8-dark.svg"><img src="./pic/formulas/inline-11fdec7448c8-light.svg" alt="\alpha = 5" height="14"></picture> Вт/(м²·К).*
 
-![Профиль T(x) при alpha = 10](./pic/5%20%D0%9F%202%2010%2020%205%20%D0%A2%D0%B5%D0%BC%D0%BF.png)
+![Профиль T(x) при alpha = 10](./pic/README_plots/graph_6.png)
 
 *Рисунок 6 — Температурный профиль <picture><source media="(prefers-color-scheme: dark)" srcset="./pic/formulas/inline-1165c59bb905-dark.svg"><img src="./pic/formulas/inline-1165c59bb905-light.svg" alt="T(x)" height="15"></picture> при <picture><source media="(prefers-color-scheme: dark)" srcset="./pic/formulas/inline-e0bcac71b4a3-dark.svg"><img src="./pic/formulas/inline-e0bcac71b4a3-light.svg" alt="\alpha = 10" height="14"></picture> Вт/(м²·К).*
 
-![Профиль theta(xi) при alpha = 10](./pic/6%20%D0%9F%202%2010%2020%205%20%D0%A2%D0%B5%D1%82%D1%82%D0%B0.png)
+![Профиль theta(xi) при alpha = 10](./pic/README_plots/graph_7.png)
 
 *Рисунок 7 — Относительный температурный профиль <picture><source media="(prefers-color-scheme: dark)" srcset="./pic/formulas/inline-7695d2a56e69-dark.svg"><img src="./pic/formulas/inline-7695d2a56e69-light.svg" alt="\theta(\xi)" height="16"></picture> при <picture><source media="(prefers-color-scheme: dark)" srcset="./pic/formulas/inline-e0bcac71b4a3-dark.svg"><img src="./pic/formulas/inline-e0bcac71b4a3-light.svg" alt="\alpha = 10" height="14"></picture> Вт/(м²·К).*
 
-![Профиль T(x) при alpha = 25](./pic/7%20%D0%9F%202%2025%2020%205%20%D0%A2%D0%B5%D0%BC%D0%BF.png)
+![Профиль T(x) при alpha = 25](./pic/README_plots/graph_8.png)
 
 *Рисунок 8 — Температурный профиль <picture><source media="(prefers-color-scheme: dark)" srcset="./pic/formulas/inline-1165c59bb905-dark.svg"><img src="./pic/formulas/inline-1165c59bb905-light.svg" alt="T(x)" height="15"></picture> при <picture><source media="(prefers-color-scheme: dark)" srcset="./pic/formulas/inline-08ffccf37974-dark.svg"><img src="./pic/formulas/inline-08ffccf37974-light.svg" alt="\alpha = 25" height="14"></picture> Вт/(м²·К).*
 
-![Профиль theta(xi) при alpha = 25](./pic/8%20%D0%9F%202%2025%2020%205%20%D0%A2%D0%B5%D1%82%D1%82%D0%B0.png)
+![Профиль theta(xi) при alpha = 25](./pic/README_plots/graph_9.png)
 
 *Рисунок 9 — Относительный температурный профиль <picture><source media="(prefers-color-scheme: dark)" srcset="./pic/formulas/inline-7695d2a56e69-dark.svg"><img src="./pic/formulas/inline-7695d2a56e69-light.svg" alt="\theta(\xi)" height="16"></picture> при <picture><source media="(prefers-color-scheme: dark)" srcset="./pic/formulas/inline-08ffccf37974-dark.svg"><img src="./pic/formulas/inline-08ffccf37974-light.svg" alt="\alpha = 25" height="14"></picture> Вт/(м²·К).*
 
-![Профиль T(x) при alpha = 50](./pic/9%20%D0%9F%202%2050%2020%205%20%D0%A2%D0%B5%D0%BC%D0%BF.png)
+![Профиль T(x) при alpha = 50](./pic/README_plots/graph_10.png)
 
 *Рисунок 10 — Температурный профиль <picture><source media="(prefers-color-scheme: dark)" srcset="./pic/formulas/inline-1165c59bb905-dark.svg"><img src="./pic/formulas/inline-1165c59bb905-light.svg" alt="T(x)" height="15"></picture> при <picture><source media="(prefers-color-scheme: dark)" srcset="./pic/formulas/inline-1c74e5eaafa3-dark.svg"><img src="./pic/formulas/inline-1c74e5eaafa3-light.svg" alt="\alpha = 50" height="14"></picture> Вт/(м²·К).*
 
-![Профиль theta(xi) при alpha = 50](./pic/10%20%D0%9F%202%2050%2020%205%20%D0%A2%D0%B5%D1%82%D1%82%D0%B0.png)
+![Профиль theta(xi) при alpha = 50](./pic/README_plots/graph_11.png)
 
 *Рисунок 11 — Относительный температурный профиль <picture><source media="(prefers-color-scheme: dark)" srcset="./pic/formulas/inline-7695d2a56e69-dark.svg"><img src="./pic/formulas/inline-7695d2a56e69-light.svg" alt="\theta(\xi)" height="16"></picture> при <picture><source media="(prefers-color-scheme: dark)" srcset="./pic/formulas/inline-1c74e5eaafa3-dark.svg"><img src="./pic/formulas/inline-1c74e5eaafa3-light.svg" alt="\alpha = 50" height="14"></picture> Вт/(м²·К).*
 
-![Зависимость T(L) от alpha](./pic/T_ot_alfa.png)
+![Зависимость T(L) от alpha](./pic/README_plots/graph_12.png)
 
 *Рисунок 12 — Температура конца ребра <picture><source media="(prefers-color-scheme: dark)" srcset="./pic/formulas/inline-7b02c5fbbc7e-dark.svg"><img src="./pic/formulas/inline-7b02c5fbbc7e-light.svg" alt="T(L)" height="15"></picture> в зависимости от α (численно и аналитически).*
 
-![Зависимость Q от alpha](./pic/Q_ot_alfa.png)
+![Зависимость Q от alpha](./pic/README_plots/graph_13.png)
 
 *Рисунок 13 — Мощность теплоотдачи <picture><source media="(prefers-color-scheme: dark)" srcset="./pic/formulas/inline-4065187ab116-dark.svg"><img src="./pic/formulas/inline-4065187ab116-light.svg" alt="\dot{Q}" height="20"></picture> в зависимости от α (численно и аналитически).*
 
-![Зависимость eta_f от alpha](./pic/Etta_ot_alfa.png)
+![Зависимость eta_f от alpha](./pic/README_plots/graph_14.png)
 
 *Рисунок 14 — Эффективность ребра <picture><source media="(prefers-color-scheme: dark)" srcset="./pic/formulas/inline-c85cee5084c7-dark.svg"><img src="./pic/formulas/inline-c85cee5084c7-light.svg" alt="\eta_f" height="14"></picture> в зависимости от α (численно и аналитически).*
 
@@ -167,87 +167,87 @@
 
 **Сходимость по числу ячеек по высоте, <picture><source media="(prefers-color-scheme: dark)" srcset="./pic/formulas/inline-76fe4fec6c0a-dark.svg"><img src="./pic/formulas/inline-76fe4fec6c0a-light.svg" alt="\alpha = 3" height="14"></picture>:**
 
-![alpha=3, N-1=5](./pic/11%20%D0%BF%204.1%203%205%205.png)
+![alpha=3, N-1=5](./pic/README_plots/graph_15.png)
 
 *Рисунок 15 — <picture><source media="(prefers-color-scheme: dark)" srcset="./pic/formulas/inline-76fe4fec6c0a-dark.svg"><img src="./pic/formulas/inline-76fe4fec6c0a-light.svg" alt="\alpha = 3" height="14"></picture>, <picture><source media="(prefers-color-scheme: dark)" srcset="./pic/formulas/inline-914688053611-dark.svg"><img src="./pic/formulas/inline-914688053611-light.svg" alt="N-1 = 5" height="14"></picture>.*
 
-![alpha=3, N-1=10](./pic/12%20%D0%BF%204.1%203%2010%205.png)
+![alpha=3, N-1=10](./pic/README_plots/graph_16.png)
 
 *Рисунок 16 — <picture><source media="(prefers-color-scheme: dark)" srcset="./pic/formulas/inline-76fe4fec6c0a-dark.svg"><img src="./pic/formulas/inline-76fe4fec6c0a-light.svg" alt="\alpha = 3" height="14"></picture>, <picture><source media="(prefers-color-scheme: dark)" srcset="./pic/formulas/inline-352d0db1e232-dark.svg"><img src="./pic/formulas/inline-352d0db1e232-light.svg" alt="N-1 = 10" height="14"></picture>.*
 
-![alpha=3, N-1=20](./pic/13%20%D0%BF%204.1%203%2020%205.png)
+![alpha=3, N-1=20](./pic/README_plots/graph_17.png)
 
 *Рисунок 17 — <picture><source media="(prefers-color-scheme: dark)" srcset="./pic/formulas/inline-76fe4fec6c0a-dark.svg"><img src="./pic/formulas/inline-76fe4fec6c0a-light.svg" alt="\alpha = 3" height="14"></picture>, <picture><source media="(prefers-color-scheme: dark)" srcset="./pic/formulas/inline-41cf6b25fd26-dark.svg"><img src="./pic/formulas/inline-41cf6b25fd26-light.svg" alt="N-1 = 20" height="14"></picture>.*
 
-![alpha=3, N-1=30](./pic/14%20%D0%BF%204.1%203%2030%205.png)
+![alpha=3, N-1=30](./pic/README_plots/graph_18.png)
 
 *Рисунок 18 — <picture><source media="(prefers-color-scheme: dark)" srcset="./pic/formulas/inline-76fe4fec6c0a-dark.svg"><img src="./pic/formulas/inline-76fe4fec6c0a-light.svg" alt="\alpha = 3" height="14"></picture>, <picture><source media="(prefers-color-scheme: dark)" srcset="./pic/formulas/inline-a53e5a3590a5-dark.svg"><img src="./pic/formulas/inline-a53e5a3590a5-light.svg" alt="N-1 = 30" height="14"></picture>.*
 
-![alpha=3, N-1=40](./pic/15%20%D0%BF%204.1%203%2040%205.png)
+![alpha=3, N-1=40](./pic/README_plots/graph_19.png)
 
 *Рисунок 19 — <picture><source media="(prefers-color-scheme: dark)" srcset="./pic/formulas/inline-76fe4fec6c0a-dark.svg"><img src="./pic/formulas/inline-76fe4fec6c0a-light.svg" alt="\alpha = 3" height="14"></picture>, <picture><source media="(prefers-color-scheme: dark)" srcset="./pic/formulas/inline-8dc0a0ebb28d-dark.svg"><img src="./pic/formulas/inline-8dc0a0ebb28d-light.svg" alt="N-1 = 40" height="14"></picture>.*
 
-![alpha=3, N-1=50](./pic/16%20%D0%BF%204.1%203%2050%205.png)
+![alpha=3, N-1=50](./pic/README_plots/graph_20.png)
 
 *Рисунок 20 — <picture><source media="(prefers-color-scheme: dark)" srcset="./pic/formulas/inline-76fe4fec6c0a-dark.svg"><img src="./pic/formulas/inline-76fe4fec6c0a-light.svg" alt="\alpha = 3" height="14"></picture>, <picture><source media="(prefers-color-scheme: dark)" srcset="./pic/formulas/inline-48eeef94b005-dark.svg"><img src="./pic/formulas/inline-48eeef94b005-light.svg" alt="N-1 = 50" height="14"></picture>.*
 
 **Сходимость по числу ячеек по высоте, <picture><source media="(prefers-color-scheme: dark)" srcset="./pic/formulas/inline-1c74e5eaafa3-dark.svg"><img src="./pic/formulas/inline-1c74e5eaafa3-light.svg" alt="\alpha = 50" height="14"></picture>:**
 
-![alpha=50, N-1=5](./pic/17%20%D0%BF%204.1%2050%205%205.png)
+![alpha=50, N-1=5](./pic/README_plots/graph_21.png)
 
 *Рисунок 21 — <picture><source media="(prefers-color-scheme: dark)" srcset="./pic/formulas/inline-1c74e5eaafa3-dark.svg"><img src="./pic/formulas/inline-1c74e5eaafa3-light.svg" alt="\alpha = 50" height="14"></picture>, <picture><source media="(prefers-color-scheme: dark)" srcset="./pic/formulas/inline-914688053611-dark.svg"><img src="./pic/formulas/inline-914688053611-light.svg" alt="N-1 = 5" height="14"></picture>.*
 
-![alpha=50, N-1=10](./pic/18%20%D0%BF%204.1%2050%2010%205.png)
+![alpha=50, N-1=10](./pic/README_plots/graph_22.png)
 
 *Рисунок 22 — <picture><source media="(prefers-color-scheme: dark)" srcset="./pic/formulas/inline-1c74e5eaafa3-dark.svg"><img src="./pic/formulas/inline-1c74e5eaafa3-light.svg" alt="\alpha = 50" height="14"></picture>, <picture><source media="(prefers-color-scheme: dark)" srcset="./pic/formulas/inline-352d0db1e232-dark.svg"><img src="./pic/formulas/inline-352d0db1e232-light.svg" alt="N-1 = 10" height="14"></picture>.*
 
-![alpha=50, N-1=20](./pic/19%20%D0%BF%204.1%2050%2020%205.png)
+![alpha=50, N-1=20](./pic/README_plots/graph_23.png)
 
 *Рисунок 23 — <picture><source media="(prefers-color-scheme: dark)" srcset="./pic/formulas/inline-1c74e5eaafa3-dark.svg"><img src="./pic/formulas/inline-1c74e5eaafa3-light.svg" alt="\alpha = 50" height="14"></picture>, <picture><source media="(prefers-color-scheme: dark)" srcset="./pic/formulas/inline-41cf6b25fd26-dark.svg"><img src="./pic/formulas/inline-41cf6b25fd26-light.svg" alt="N-1 = 20" height="14"></picture>.*
 
-![alpha=50, N-1=30](./pic/20%20%D0%BF%204.1%2050%2030%205.png)
+![alpha=50, N-1=30](./pic/README_plots/graph_24.png)
 
 *Рисунок 24 — <picture><source media="(prefers-color-scheme: dark)" srcset="./pic/formulas/inline-1c74e5eaafa3-dark.svg"><img src="./pic/formulas/inline-1c74e5eaafa3-light.svg" alt="\alpha = 50" height="14"></picture>, <picture><source media="(prefers-color-scheme: dark)" srcset="./pic/formulas/inline-a53e5a3590a5-dark.svg"><img src="./pic/formulas/inline-a53e5a3590a5-light.svg" alt="N-1 = 30" height="14"></picture>.*
 
-![alpha=50, N-1=40](./pic/21%20%D0%BF%204.1%2050%2040%205.png)
+![alpha=50, N-1=40](./pic/README_plots/graph_25.png)
 
 *Рисунок 25 — <picture><source media="(prefers-color-scheme: dark)" srcset="./pic/formulas/inline-1c74e5eaafa3-dark.svg"><img src="./pic/formulas/inline-1c74e5eaafa3-light.svg" alt="\alpha = 50" height="14"></picture>, <picture><source media="(prefers-color-scheme: dark)" srcset="./pic/formulas/inline-8dc0a0ebb28d-dark.svg"><img src="./pic/formulas/inline-8dc0a0ebb28d-light.svg" alt="N-1 = 40" height="14"></picture>.*
 
-![alpha=50, N-1=50](./pic/22%20%D0%BF%204.1%2050%2050%205.png)
+![alpha=50, N-1=50](./pic/README_plots/graph_26.png)
 
 *Рисунок 26 — <picture><source media="(prefers-color-scheme: dark)" srcset="./pic/formulas/inline-1c74e5eaafa3-dark.svg"><img src="./pic/formulas/inline-1c74e5eaafa3-light.svg" alt="\alpha = 50" height="14"></picture>, <picture><source media="(prefers-color-scheme: dark)" srcset="./pic/formulas/inline-48eeef94b005-dark.svg"><img src="./pic/formulas/inline-48eeef94b005-light.svg" alt="N-1 = 50" height="14"></picture>.*
 
 **Влияние числа ячеек по толщине K (при фиксированной продольной сетке):**
 
-![alpha=3, K=3](./pic/23%20%D0%BF%204.2%203%2020%203.png)
+![alpha=3, K=3](./pic/README_plots/graph_27.png)
 
 *Рисунок 27 — <picture><source media="(prefers-color-scheme: dark)" srcset="./pic/formulas/inline-76fe4fec6c0a-dark.svg"><img src="./pic/formulas/inline-76fe4fec6c0a-light.svg" alt="\alpha = 3" height="14"></picture>, <picture><source media="(prefers-color-scheme: dark)" srcset="./pic/formulas/inline-1de9a5b9680a-dark.svg"><img src="./pic/formulas/inline-1de9a5b9680a-light.svg" alt="K = 3" height="14"></picture>.*
 
-![alpha=3, K=5](./pic/24%20%D0%BF%204.2%203%2020%205.png)
+![alpha=3, K=5](./pic/README_plots/graph_28.png)
 
 *Рисунок 28 — <picture><source media="(prefers-color-scheme: dark)" srcset="./pic/formulas/inline-76fe4fec6c0a-dark.svg"><img src="./pic/formulas/inline-76fe4fec6c0a-light.svg" alt="\alpha = 3" height="14"></picture>, <picture><source media="(prefers-color-scheme: dark)" srcset="./pic/formulas/inline-c60f03e77856-dark.svg"><img src="./pic/formulas/inline-c60f03e77856-light.svg" alt="K = 5" height="14"></picture>.*
 
-![alpha=3, K=7](./pic/25%20%D0%BF%204.2%203%2020%207.png)
+![alpha=3, K=7](./pic/README_plots/graph_29.png)
 
 *Рисунок 29 — <picture><source media="(prefers-color-scheme: dark)" srcset="./pic/formulas/inline-76fe4fec6c0a-dark.svg"><img src="./pic/formulas/inline-76fe4fec6c0a-light.svg" alt="\alpha = 3" height="14"></picture>, <picture><source media="(prefers-color-scheme: dark)" srcset="./pic/formulas/inline-9e9d70da3bc8-dark.svg"><img src="./pic/formulas/inline-9e9d70da3bc8-light.svg" alt="K = 7" height="12"></picture>.*
 
-![alpha=50, K=3](./pic/26%20%D0%BF%204.2%2050%2020%203.png)
+![alpha=50, K=3](./pic/README_plots/graph_30.png)
 
 *Рисунок 30 — <picture><source media="(prefers-color-scheme: dark)" srcset="./pic/formulas/inline-1c74e5eaafa3-dark.svg"><img src="./pic/formulas/inline-1c74e5eaafa3-light.svg" alt="\alpha = 50" height="14"></picture>, <picture><source media="(prefers-color-scheme: dark)" srcset="./pic/formulas/inline-1de9a5b9680a-dark.svg"><img src="./pic/formulas/inline-1de9a5b9680a-light.svg" alt="K = 3" height="14"></picture>.*
 
-![alpha=50, K=5](./pic/27%20%D0%BF%204.2%2050%2020%205.png)
+![alpha=50, K=5](./pic/README_plots/graph_31.png)
 
 *Рисунок 31 — <picture><source media="(prefers-color-scheme: dark)" srcset="./pic/formulas/inline-1c74e5eaafa3-dark.svg"><img src="./pic/formulas/inline-1c74e5eaafa3-light.svg" alt="\alpha = 50" height="14"></picture>, <picture><source media="(prefers-color-scheme: dark)" srcset="./pic/formulas/inline-c60f03e77856-dark.svg"><img src="./pic/formulas/inline-c60f03e77856-light.svg" alt="K = 5" height="14"></picture>.*
 
-![alpha=50, K=7](./pic/28%20%D0%BF%204.2%2050%2020%207.png)
+![alpha=50, K=7](./pic/README_plots/graph_32.png)
 
 *Рисунок 32 — <picture><source media="(prefers-color-scheme: dark)" srcset="./pic/formulas/inline-1c74e5eaafa3-dark.svg"><img src="./pic/formulas/inline-1c74e5eaafa3-light.svg" alt="\alpha = 50" height="14"></picture>, <picture><source media="(prefers-color-scheme: dark)" srcset="./pic/formulas/inline-9e9d70da3bc8-dark.svg"><img src="./pic/formulas/inline-9e9d70da3bc8-light.svg" alt="K = 7" height="12"></picture>.*
 
-![Сравнение по K, alpha=3](./pic/29%20%D0%9F%204.2%20%D1%81%D1%80%D0%B0%D0%B2%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B0%D0%BB%D1%8C%D1%84%D0%B0%3D3.png)
+![Сравнение по K, alpha=3](./pic/README_plots/graph_33.png)
 
 *Рисунок 33 — Сравнение результатов по K при <picture><source media="(prefers-color-scheme: dark)" srcset="./pic/formulas/inline-76fe4fec6c0a-dark.svg"><img src="./pic/formulas/inline-76fe4fec6c0a-light.svg" alt="\alpha = 3" height="14"></picture>.*
 
-![Сравнение по K, alpha=50](./pic/28%20%D0%9F%204.2%20%D1%81%D1%80%D0%B0%D0%B2%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B0%D0%BB%D1%8C%D1%84%D0%B0%3D50.png)
+![Сравнение по K, alpha=50](./pic/README_plots/graph_34.png)
 
 *Рисунок 34 — Сравнение результатов по K при <picture><source media="(prefers-color-scheme: dark)" srcset="./pic/formulas/inline-1c74e5eaafa3-dark.svg"><img src="./pic/formulas/inline-1c74e5eaafa3-light.svg" alt="\alpha = 50" height="14"></picture>.*
 
